@@ -18,7 +18,7 @@ Create a .env file and set **REACT_APP_OPENAI_API_KEY= [Your own openAI API key]
 
 * Clone the project
   
-  `$ git clone` 
+  `$ git clone https://github.com/Lindahe0707/real-time-chat-app.git` 
   
 * Go to the project directory
   
