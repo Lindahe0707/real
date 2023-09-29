@@ -1,0 +1,47 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  background-color: #131324;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 2rem 8rem 1rem 6rem;
+}
+
+.brand {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.brand img {
+  height: 3rem;
+}
+.brand h3 {
+  color: white;
+  padding-top: 1rem;
+  text-transform: uppercase;
+}
+
+.language {
+  position: fixed;
+  margin-left:50%;
+}
+
+.contracts {
+  height: 85vh;
+  width: 85vw;
+  background-color: #00000076;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  @media screen and (min-width: 720px) and (max-width: 1080px) {
+    grid-template-columns: 35% 65%;
+  }
+}

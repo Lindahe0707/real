@@ -1,0 +1,59 @@
+.container {
+  color: white;
+}
+
+.container span {
+  display: inline-block;
+  padding: 0.5rem;
+  margin-right: 0.3rem;
+  margin-top: 0.1rem;
+}
+
+.dropdown {
+  background-color: #9a86f3;
+  border-radius: 10px;
+}
+
+.dropbutton {
+  color: white;
+  border: none;
+  background-color: inherit;
+  font-size: 1rem;
+  overflow: hidden;
+}
+
+.dropbutton svg {
+  padding-top: 0.3rem;
+}
+
+.languages {
+  display: none;
+  position: absolute;
+  margin-left: -8px;
+  margin-top: 5px;
+  background-color: #f9f9f9;
+  z-index: 1;
+}
+
+.languages button {
+  display: block;
+  padding: 12px 16px;
+  min-width: 178px;
+  margin: 0;
+  border: none;
+  text-align: center;
+}
+
+.dropdown:hover {
+  background-color: #8976e8;
+}
+.dropdown:hover .languages {
+  display: block;
+}
+
+.languages button:hover {
+  background-color: rgb(203, 199, 199);
+  font-weight: bold;
+  cursor: pointer;
+}
+
