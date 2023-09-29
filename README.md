@@ -1,7 +1,7 @@
 # UniChatter - a real-time chat app
 
 
-A MERN stack real-time chat app with chatGPT translation for multilingual users.
+A MERN stack real-time chat app with chatGPT API for  multilingual communication.
 
 # Main Dependencies
 
